@@ -3,19 +3,6 @@
     "revo": {
       "main": "src/revo/main.mo",
       "type": "motoko"
-    },
-    "revo_assets": {
-      "dependencies": [
-        "revo"
-      ],
-      "frontend": {
-        "entrypoint": "src/revo_assets/src/index.html"
-      },
-      "source": [
-        "src/revo_assets/assets",
-        "dist/revo_assets/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
